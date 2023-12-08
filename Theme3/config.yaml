@@ -1,0 +1,73 @@
+baseURL: /
+languageCode: en-us
+theme: hugo-winston-theme
+title: May the sun shine on you
+paginate: 3
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+pygmentsUseClasses: yes
+module:
+  hugoVersion:
+    extended: yes
+    min: 0.55.0
+params:
+  addDot: yes
+  addFrame: yes
+  baseColor: '#ffffff'
+  baseOffsetColor: '#eaeaea'
+  dotColor: '#7b16ff' #darkred
+  enableGoogleFonts: yes
+  fontFamilyHeading: Poppins
+  fontFamilyMonospace: monospace
+  fontFamilyParagraph: Helvetica
+  google_analytics_id: ''
+  googleFontsUrl: https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap
+  headingColor: '#1c1b1d'
+  highlightColor: 'black' #7b16ff,darkblack
+  limitPostsOnHomepage: 3
+  showAuthorOnHomepage: yes
+  showAuthorOnPosts: no
+  showIntroContentOnHomepage: yes
+  showPostsOnHomepage: no
+  sortPostsByDateOldestFirst: no
+  textColor: '#4e5157'
+  twitter_handle: '@zerostaticio'
+  usePaginationOnHomepage: no
+markup:
+  goldmark:
+    renderer:
+      hardWraps: no
+      unsafe: yes
+      xhtml: no
+#add from other template's yaml#
+taxonomies:
+  category: categories
+  tag: tags
+permalinks:
+  page: /:slug/
+  posts: /:slug/
+#add from other template's yaml#  
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    #- identifier: blog
+    #  name: Blog
+    #  url: /posts/
+    #  weight: 2
+    - identifier: about
+      name: About
+      url: /About/
+      weight: 5
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    - name: Blog #Categories
+      url: /categories/
+      weight: 2
+    - name: Vitae
+      url: /vitae/
+      weight: 4

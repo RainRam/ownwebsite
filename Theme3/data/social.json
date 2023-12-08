@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "name": "Email",
+      "url": "https://mail.google.com/mail/u/0/?tab=km#inbox",
+      "image": "images/social/email.png"
+    },
+	{
+      "name": "ZhiHu",
+      "url": "https://www.zhihu.com/people/ke-wang-geng-da-shi-jie-de-zhang-yu",
+      "image": "images/social/zhihu.png"
+    },
+	{
+      "name": "Bilibili",
+      "url": "https://space.bilibili.com/513054410/",
+      "image": "images/social/bili.png"
+    },
+	{
+      "name": "Github",
+      "url": "https://github.com/RainRam",
+      "image": "images/social/github.svg"
+    },
+	{
+      "name": "Researchgate",
+      "url": "https://www.researchgate.net/profile/Zhang-Yu-14",
+      "image": "images/social/researchgate.png"
+    },
+	{
+      "name": "X/Twitter",
+      "url": "https://twitter.com/Octopus_YuZHANG",
+      "image": "images/social/twitter.jpg"
+    }
+  ]
+}
